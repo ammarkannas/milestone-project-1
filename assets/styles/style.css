@@ -12,3 +12,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.skill-icon-img {
+    width: 32px;
+}
+
+.progress {
+    height: 2px;
+}

@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Ammar Kannas's Portfolio Website</h1>
 
-[View the live project here.](https://ammarkannas.github.io)
+[View the live project here.](https://ammarkannas.github.io/milestone-project-1/)
 
 This is the main marketing site for myself and my services. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors and potential customers.
 

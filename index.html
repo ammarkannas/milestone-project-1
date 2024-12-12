@@ -170,6 +170,111 @@
                     </div>
                 </article>
             </section>
+
+            <!-- My works section -->
+            <section class="container-fluid container-md p-4 shadow-sm bg-white mb-4" id="my-works">
+                <h2 class="mb-4">My works</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card works-preview-card">
+                            <img src="assets/images/e-commerce-store.png" class="card-img-top" alt="E-Commerce Store website">
+                            <div class="card-body">
+                                <a class="h5 card-title" href="https://github.com/ammarkannas" target="_blank">
+                                    E-Commerce Store
+                                </a>
+                                <p class="card-text mt-3">
+                                    At E-Commerce Store, we bring you a wide range of high-quality products at unbeatable prices, all in one convenient online store. Whether you're shopping for the latest electronics, trendy fashion, or everyday essentials, we've got you covered.                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card works-preview-card">
+                            <img src="assets/images/car-garage-website.png" class="card-img-top" alt="Online garage image">
+                            <div class="card-body">
+                                <a class="h5 card-title" href="https://github.com/ammarkannas" target="_blank">
+                                    Online Garage
+                                </a>
+                                <p class="card-text mt-3">
+                                    Online garage website is a great way to connect with customers and showcase your auto services digitally. With direct booking, price inquiries and estimated turnaround times
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card works-preview-card">
+                            <img src="assets/images/events-website.png" class="card-img-top" alt="Events website image">
+                            <div class="card-body">
+                                <a class="h5 card-title" href="https://github.com/ammarkannas" target="_blank">
+                                    Events Website
+                                </a>
+                                <p class="card-text mt-3">
+                                    Organize and manage events, such as conferences, weddings, or workshops. Provide details, schedules, and booking options.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a class="btn btn-primary align-self-center" href="https://github.com/ammarkannas?tab=repositories" target="_blank">
+                            View more
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact me section -->
+            <section class="container-fluid container-md p-4 shadow-sm bg-white mb-4" id="contact-me">
+                <h2 class="mb-4">Contact me</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4">
+                        <form method="post" id="contact-form">
+                            <div class="form-group mb-4">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+
+                            <button type="button" class="btn btn-outline-primary w-100" data-toggle="modal" data-target="#formSubmittedModal">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Google maps -->
+                    <div class="col-12 col-md-6 mb-4">
+                        <iframe class="rounded w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.3535185626743!2d-3.5772365530877055!3d51.50672999123278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e6c3447c6de27%3A0x38ba17d1432a05e5!2s12-14%20Adare%20St%2C%20Bridgend%20CF31%201ET!5e0!3m2!1sen!2suk!4v1733547132170!5m2!1sen!2suk" height="391" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <div class="modal fade" id="formSubmittedModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                            <i class="fa-regular fa-circle-check fa-4x text-success"></i>
+                            <p class="lead mt-4">
+                                Thank you for reaching out to me. I appreciate your interest in me, and I am happy to help answer any questions you may have
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</main>
 
 		<!-- Bootstrap scripts -->

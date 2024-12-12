@@ -1,131 +1,182 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 style="text-align: center;">Ammar Kannas's Portfolio Website</h1>
 
-Welcome Ammar Kannas,
+[View the live project here.](https://ammarkannas.github.io)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the main marketing site for myself and my services. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors and potential customers.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<h2 align="center"><img src="docs/mockup/all-devices-black.png"></h2>
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
+        1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        2. As a first-time visitor, I want to explore some of the work they have done, and the skills they have
 
-A blue button should appear to click: _Make Public_,
+    -   #### Returning Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a Returning Visitor, I want to find information about coding skills.
+        2. As a Returning Visitor, I want to find the best way to get in contact with any questions I may have.
+        3. As a Returning Visitor, I want to find community links.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check to see if there are any newly added works.
+    
+  - ### Design
+      -   #### Colour Scheme
+          -   <div style="color: #0d6efd;">Primary #0D6EFD</div>
+          -   <div style="color: #6c757d;">Secondary #6C757D</div>
+          -   <div style="color: #198754;">Success #198754</div>
+      -   #### Typography
+          -   The Lexend font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lexend is a clean font used frequently in programming, so it is both attractive and appropriate.
+      -   #### Imagery
+          - Skills and programming languages icons [Flaticon](https://www.flaticon.com)
+          - My works image Microsoft copilot AI [Copilot](https://copilot.microsoft.com/)
+*   ### Wireframes
 
-A blue button should appear to click: _Make Public_,
+    -   Desktop (Large screens)
+        <h2 align="center"><img src="docs/wireframes/Large-screens.png"></h2>
+    -   Mobile Phones (Small screens)
+        <h2 align="center"><img src="docs/wireframes/Small-screens.png"></h2>
 
-Another blue button should appear to click: _Open Browser_.
+## Features
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   Responsive on all device sizes
 
-To log into the Heroku toolbelt CLI:
+-   Interactive elements
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Technologies Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Languages Used
 
-### Connecting your Mongo database
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Frameworks, Libraries & Programs Used
 
-------
+1. [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Lexend' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/ammarkannas/milestone-project-1/docs/wireframes) during the design process.
 
-## Release History
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**June 18, 2024,** Add Mongo back into template
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Document checking completed. No errors or warnings to show.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Document checking completed. No errors or warnings to show.
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Testing User Stories from User Experience (UX) Section
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-   #### First Time Visitor Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Text and a "Learn More" Call to action button.
+        2. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about me.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    3. As a first-time visitor, I want to explore some of the work they have done, and the skills they have
+        1. Once the new visitor has read the About Us and What We Do text.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact me on social media which highlights the links to them.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+-   #### Returning Visitor Goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    1. As a Returning Visitor, I want to find the best way to get in contact with the developer with any questions I may have.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page or are they can message the developer on social media.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the developer's.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    2. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Further Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### GitHub Pages
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The project was deployed to GitHub Pages using the following steps...
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/ammarkannas) in the "GitHub Pages" section.
 
-------
+### Forking the GitHub Repository
 
-## FAQ about the uptime script
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-**Why have you added this script?**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Making a Local Clone
 
-**How will this affect me?**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+    ```bash
+    $ git clone git@github.com:ammarkannas/milestone-project-1.git
+    ```
+7. Press Enter. Your local clone will be created.
+    ```bash
+    $ git clone git@github.com:ammarkannas/milestone-project-1.git
+    > Cloning into `milestone-project-1`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    ```
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Credits
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Code
 
-**So….?**
+-   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content
 
-**Can I opt out?**
+-   All content was written by the developer.
+-   Some content was generated by [Microsoft copilot Ai](https://copilot.microsoft.com/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Media
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+-   Skills Icons [Flaticon](https://www.flaticon.com/)
+-   Works Previews [Microsoft copilot Ai](https://copilot.microsoft.com/)
 
-**Anything more?**
+### Acknowledgements
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+-   My Mentor for continuous helpful feedback.
+-   Tutor support at Code Institute for their support.
